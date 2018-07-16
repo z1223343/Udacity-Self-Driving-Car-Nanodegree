@@ -13,21 +13,19 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/visualization.jpg "Visualization"
-[image2]: ./examples/grayscale.jpg "Grayscaling"
-[image3]: ./examples/random_noise.jpg "Random Noise"
-[image4]: ./examples/placeholder.png "Traffic Sign 1"
-[image5]: ./examples/placeholder.png "Traffic Sign 2"
-[image6]: ./examples/placeholder.png "Traffic Sign 3"
-[image7]: ./examples/placeholder.png "Traffic Sign 4"
-[image8]: ./examples/placeholder.png "Traffic Sign 5"
+[image1]: ./image_1.jpg
+[image2]: ./image_2.jpg
+[image3]: ./image_3.jpg
+[image4]: ./image_4.jpg
+[image5]: ./image_5.jpg
+[image6]: ./plot.jpg
 
 ---
 ### Writeup / README
 
 #### 1. Provide a Writeup / README that includes all the rubric points and how you addressed each one. You can submit your writeup as markdown or pdf. You can use this template as a guide for writing the report. The submission includes the project code.
 
-You're reading it! and here is a link to my [project code](https://github.com/udacity/CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier.ipynb) 要改改
+You're reading it! and here is a link to my [project code](https://github.com/z1223343/Udacity-Self-Driving-Car-Nanodegree/blob/master/Term1-project2-Traffic-sign-Classifier/Traffic_Sign_Classifier.ipynb) 
 
 ### Data Set Summary & Exploration
 
@@ -93,7 +91,7 @@ I chose LeNet CNN model as the architecture.
 * Based on the architecture of LeNet, I tweaked the learning rate with the epoches I used, I also find the value of 'sigma' in the function **truncated_normal()**. The accuraccy is below 0.1 when I didn't set initial sigma value or make sigma as big as '0.9', and the accuraccy is also not good when 'sigma' is too low. Results are good when 'sigma' is near 0.1, and in this project I set it as 0.11.
 * I also tried to improve it by using dropout algorithm, and it works well to prevent the CNN overfitting. Finally I set the keep rate as 0.5.
 
-要改改
+![][image6]
 
 ### Test a Model on New Images
 
@@ -101,8 +99,8 @@ I chose LeNet CNN model as the architecture.
 
 Here are five German traffic signs that I found on the web:
 
-![alt text][image4] ![alt text][image5] ![alt text][image6] 
-![alt text][image7] ![alt text][image8]
+![][image1] ![][image2] ![][image3] 
+![][image4] ![][image5]
 
 要改改
 
